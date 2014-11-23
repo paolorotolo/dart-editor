@@ -1,0 +1,12 @@
+#!/bin/bash
+cd /opt/
+
+## Unzip Android Studio's source code
+sudo unzip /opt/darteditor-*
+
+## Remove the package zip package at end
+sudo rm -r /opt/darteditor*
+
+## Give permessions to folder to let the built-in update system work
+find /opt/dart/ -type d -exec chmod 777 {} \;
+find /opt/dart/ -type f -exec chmod 777 {} \;

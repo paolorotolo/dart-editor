@@ -1,0 +1,40 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sun, 23 Nov 2014 20:47:16 +0100
+Source: dart-editor-i386
+Binary: dart-editor-i386
+Architecture: source
+Version: 1.7.2-0ubuntu0
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: Paolo Rotolo <paolorotolo@ubuntu.com>
+Changed-By: Paolo Rotolo <paolorotolo@ubuntu.com>
+Description:
+ dart-editor-i386 - Dart Editor for Ubuntu.
+Changes:
+ dart-editor-i386 (1.7.2-0ubuntu0) UNRELEASED; urgency=low
+ .
+   * Initial release.
+Checksums-Sha1:
+ 7a91822ecc5a8c09cc2b7f17e24a0d721cf44d4f 1122 dart-editor-i386_1.7.2-0ubuntu0.dsc
+ 13bc6567c9b9e1fa354ea8eb473008457f19fffa 7472 dart-editor-i386_1.7.2-0ubuntu0.tar.xz
+Checksums-Sha256:
+ b98ce4b89a9ba69fb5bc9f6482780bceed23d858c7d2a40047451b03e1b0a3c8 1122 dart-editor-i386_1.7.2-0ubuntu0.dsc
+ cd20f68041e35acb1e31036d108b1dd064297180f4db126d14db7cbee78a69d2 7472 dart-editor-i386_1.7.2-0ubuntu0.tar.xz
+Files:
+ cefd079d0dac2c5e5f0fba9b7907b5f4 1122 devel optional dart-editor-i386_1.7.2-0ubuntu0.dsc
+ 95b17f1f657a01dc6daa1f3d893a3ab9 7472 devel optional dart-editor-i386_1.7.2-0ubuntu0.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJUckP2AAoJEPZj7dWN6MREXDIH/3eQL+Q7WDPFiNKhPDvmRgtE
+7R4950k5Aa/TLbkR0gQtKtp106zFOC6qw8FqjZQr3qW7R8sD3blXsJZFGX3AECjX
+y+I9M9gbwotLNLi1zQNsdIKU+8cZZ8nblc+PwSUuh01U61mnYUPrwRsXvlC9OpHJ
+uwpDd2fS5rfM1HNa2ZdVc4mubcyaeSVQHKPZ0oKe3BC8eDQtsHOveEU6GRDUo2Q4
+DYb/65VIU+do+Ifh+ZOMcUXOXp/sTegCFF+GWTyeUZ5u9+NVALd2PlQRmFxku4fZ
+hlNYfkxP9h/bY7SKW/Gs1xII0ZFIAL9NgIUe7IvIirD1KhT0ESC9O752RxzLJYM=
+=lxSY
+-----END PGP SIGNATURE-----
