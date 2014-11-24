@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+        <meta name="title" content="Android Studio for Ubuntu" />
+        <meta name="description" content="Android Studio by Google packaged for Ubuntu." />
+        <title>Android Studio for Ubuntu</title>
+        <link rel="stylesheet" type="text/css" media="all" href="./resources/css/opensans.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="./resources/css/stylesheet.css">
+        <link rel="shortcut icon" href="./resources/img/favicon.png" type="image/x-icon" />
+        <link rel="image_src" href="./resources/img/preview.png" />
+                        <link rel="import" href="bower_components/polymer/polymer.html">
+        <link rel="import" href="bower_components/paper-button/paper-button.html">
+        <link rel="import" href="bower_components/paper-dialog/paper-dialog.html">
+        <script type="text/javascript" src="/resources/js/main.js"></script>
+        <link rel="import" href="bower_components/paper-tabs/paper-tabs.html">
+        <link rel="import" href="bower_components/core-pages/core-pages.html">
+    </head>
+    <body >
+        <section id="home">
+            <div class="content">
+                <h1 class="title">Dart Editor for Ubuntu</h1>
+                <h2 class="subtitle">Dart is a cohesive, scalable platform for building apps that run on the web (where you can use Polymer) or on servers (such as with Google Cloud Platform).</h2>
+                <!--
+                <div class="code">
+                    <code>sudo apt-add-repository <a href="https://code.launchpad.net/~paolorotolo/+archive/android-studio">ppa:paolorotolo/android-studio</a> <br/> sudo apt-get update <br/> sudo apt-get install android-studio</code>
+-->
+
+
+                </div>
+                <br/>
+                <paper-button raised class="button" onclick="toggleDialog('core-transition-center')">Add the PPA
+            
+            <!-- Dialog -->
+<paper-dialog transition="core-transition-center">
+    
+<h3> For amd64 </h3>
+    <span style="background-color: #CCCCCC"><code>
+        sudo apt-add-repository ppa:paolorotolo/dart-editor <br>
+        sudo apt-get update <br>
+        sudo apt-get install dart-editor-amd64
+</code></span>
+    <br>
+    
+    <h3> For i386 </h3>
+    <span style="background-color: #CCCCCC"><code>
+        sudo apt-add-repository ppa:paolorotolo/dart-editor <br>
+        sudo apt-get update <br>
+        sudo apt-get install dart-editor-i386
+</code></span>
+    
+</paper-dialog>
+                    
+            </paper-button>
+            <br>
+            <br>
+            <paper-button raised class="button">Or download the .deb           
+                    
+            </paper-button>
+                <br/>                
+                <br/>
+                <br/>
+                <br/>
+
+                <!-- Inserisci questo tag nel punto in cui vuoi che sia visualizzato l'elemento pulsante +1. -->
+<div class="g-plusone" data-annotation="inline" data-width="300"></div>
+
+<!-- Inserisci questo tag dopo l'ultimo tag di pulsante +1. -->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'en'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+                </div>
+            </div>
+        </section>
+        <section id="content">
+            <div class="content" class="left">
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <h1>Introducing Android Studio. <img class="right" hspace="50" vspace="90" src="resources/img/android-studio.png"/></h1>
+                <p> Android Studio is a new Android development environment <br/> <b>developed by Google</b> and based on IntelliJ IDEA.<p/><p> Similar to Eclipse with the ADT Plugin,  Android Studio provides integrated Android developer tools for development and debugging. <p>On top of the capabilities you expect from IntelliJ, Android Studio offers:
+                 <ul>
+                     <li>Gradle-based build support.</li>
+                     <li>Android-specific refactoring and quick fixes.</li>
+                     <li>Lint tools to catch performance, usability, version compatibility and other problems.</li>
+                     <li>ProGuard and app-signing capabilities.</li>
+                     <li>Template-based wizards to create common Android designs and components.</li>
+                     <li>A rich layout editor that allows you to drag-and-drop UI components, preview layouts on multiple screen configurations, and much more.</li>
+                     <li>Built-in support for Google Cloud Platform, making it easy to integrate Google Cloud Messaging and App Engine as server-side components.</li>
+                </ul>
+                </p>
+            <p> <a href="http://developer.android.com/sdk/installing/studio.html">  More informations...</a></p>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            </div>
+        </section>
+        <section id="home2">
+                 <div class="content">
+                     <h1 class="title">Packaged for Ubuntu</h1>
+                     <br/>
+                     <h2 class="subtitle">Pure Android Studio by Google  <br/> packaged for Ubuntu on a PPA.<br/><br/>
+                     Download. <br/> Install. <br/> Simple! </h2>
+                <br/> 
+                <br/>
+            </div>
+        </section>
+        <section id="content">
+            <div class="content" class="right">
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/> 
+                <br/>
+                <br/>
+                <h1>Always updated. <img class="left" hspace="50" src="resources/img/updates.png" height="250"/></h1>
+                <p> It automagically downloads and installs the latest release from <i>stable/development/beta/canary</i> channel. <br/></p><p> Because <b>updates are cool!</b></p> 
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+            </div>
+        </section>
+        <section id="home3">
+                 <div class="content">
+                     <h1 class="title">How it works.</h1>
+                     <br/>
+                     <h2 class="subtitle"><b>Package consists in:</b>
+                     <ul>
+                         <li> <b>1</b> debian folder;</li>
+                         <li> <b>1</b> .svg icon;</li>
+                         <li> <b>1</b> .desktop file;</li>
+                         </ul><br/>
+                         <b>When installed, it:</b> 
+                         <ul>
+                         <li> <b>puts</b> .dekstop in /usr/share/applications;</li>
+                         <li> <b>puts</b> .svg icon in /usr/share/icons;</li>
+                         <li> <b>downloads</b> Android Studio from Google's Servers to opt/android-studio;</li>
+                         <li> <b>extracts</b> the downloaded .zip in the folder;</li>
+                         <li> <b>deletes</b> the .zip and shows confirm dialog to user.</li>
+                         </ul></h2>
+                <br/> 
+                <br/>
+            </div>
+        </section>
+<section id="content">
+                    <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+    <h1>Open Source.</h1>
+    <h2>
+        <p>Source code is available on <a href="https://github.com/PaoloRotolo/android-studio">GitHub</a>.</p>
+        <p>Developed by <a href="https://twitter.com/PaoloRotolo/">Paolo Rotolo</a>.</p>
+        <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+        <div class="g-plus" data-href="https://plus.google.com/106560691065858212266" rel="author"></div>
+    </h2>
+                    <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+</section>
+        <section id="home4">
+                 <div class="content">
+                     <h1 class="title">About me.</h1>
+                     <br/>
+                     <h2 class="subtitle"><b>Read more about me on <a href="http://paolorotolo.github.io">my official website.</a></b>
+                     </h2>
+                <br/> 
+                <br/>
+            </div>
+        </section>
+            </a>
+
+        <footer>
+            Android Studio for Ubuntu &#169; 2014 Paolo Rotolo. Android Studio and the Android logo are trademarks of Google Inc. All rights reserved.
+        </footer>
+    </body>
+</html>
