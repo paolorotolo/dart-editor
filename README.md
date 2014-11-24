@@ -1,7 +1,5 @@
-dartEditor
+Dart Editor packaged for Ubuntu
 ==========
-
-<h2> Dart Editor packaged for Ubuntu </h2>
 
 <h4> Install Dart Editor on Ubuntu with just one click. </h4>
 Available in **.deb** and through  **PPA**. 
