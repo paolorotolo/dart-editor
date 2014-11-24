@@ -1,5 +1,0 @@
-#!/bin/bash
-cd /opt/
-
-## Download Android Studio from Google's Servers.
-wget https://storage.googleapis.com/dart-archive/channels/stable/release/latest/editor/darteditor-linux-ia32.zip

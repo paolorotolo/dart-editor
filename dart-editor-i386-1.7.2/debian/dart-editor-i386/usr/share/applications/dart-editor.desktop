@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Terminal=false
-Name=Dart Editor
-Exec=/opt/dart/DartEditor
-Comment=Dart is a cohesive, scalable platform for building apps that run on the web or on servers.
-Icon=dart
-Categories=GNOME;GTK;Development;IDE;

@@ -1,9 +1,0 @@
-Package: dart-editor-amd64
-Version: 1.7.2-0ubuntu0
-Architecture: all
-Maintainer: Paolo Rotolo <paolorotolo@ubuntu.com>
-Installed-Size: 66
-Section: devel
-Priority: optional
-Description: Dart Editor for Ubuntu.
- Dart Editor, with its static analysis engine and direct integration with Dartium, helps you develop, debug, and maintain your apps.
