@@ -1,9 +1,10 @@
-html { height: 100%; }
+html { height: 100%; width: 100%;}
 
 body {
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 100%;
     background: #ecf0f1;
     color: #333;
     font-size: 100%;
@@ -156,11 +157,11 @@ footer a:focus, footer a:hover {
 
 
 
-html /deep/ paper-dialog paper-tabs::shadow #selectionBar {
+html /deep/ paper-action-dialog paper-tabs::shadow #selectionBar {
   background-color: #006698;
 }
 
-html /deep/ paper-dialog paper-tabs paper-tab::shadow #ink {
+html /deep/ paper-action-dialog paper-tabs paper-tab::shadow #ink {
   color: #006698;
 }
 
