@@ -5,16 +5,10 @@
         <meta name="title" content="Android Studio for Ubuntu" />
         <meta name="description" content="Android Studio by Google packaged for Ubuntu." />
         <title>Dart Editor for Ubuntu</title>
-        <link rel="stylesheet" type="text/css" media="all" href="./resources/css/opensans.css">
-        <link rel="stylesheet" type="text/css" media="screen" href="./resources/css/stylesheet.css">
-        <link rel="shortcut icon" href="./resources/img/favicon.png" type="image/x-icon" />
-        <link rel="image_src" href="./resources/img/preview.png" />
-                        <link rel="import" href="bower_components/polymer/polymer.html">
-        <link rel="import" href="bower_components/paper-button/paper-button.html">
-        <link rel="import" href="bower_components/paper-dialog/paper-dialog.html">
+        <script src="./bower_components/webcomponentsjs/webcomponents.min.js"></script>
+        <link rel="import" href="polymer.html">
+        <script src="./resources/js/jquery-1.11.1.min.js"></script>
         <script type="text/javascript" src="./resources/js/main.js"></script>
-        <link rel="import" href="bower_components/paper-tabs/paper-tabs.html">
-        <link rel="import" href="bower_components/core-pages/core-pages.html">
     </head>
     <body >
         <section id="home">
@@ -29,30 +23,8 @@
 
                 </div>
                 <br/>
-                <paper-button raised class="button" onclick="toggleDialog('core-transition-center')">Add the PPA
+                <paper-button id="download" raised class="button">Add the PPA
             
-            <!-- Dialog -->
-<paper-dialog heading="Download Dart Editor" transition="core-transition-center">
-    
-    <span style="color: #333333"><h4> For amd64 </h4></span>
-        <p>Paste the following commands in a terminal:</p>
-
-    <span style="background-color: #efefef; color: #555555"><code>
-        sudo apt-add-repository ppa:paolorotolo/dart-editor <br>
-        sudo apt-get update <br>
-        sudo apt-get install dart-editor-amd64
-</code></span>
-    <br>
-    
-    <span style="color: #333333"><h4> For i386 </h4></span>
-    <p>Paste the following commands in a terminal:</p>
-    <span style="background-color: efefef; color: #555555"><code>
-        sudo apt-add-repository ppa:paolorotolo/dart-editor <br>
-        sudo apt-get update <br>
-        sudo apt-get install dart-editor-i386
-</code></span>
-    
-</paper-dialog>
                     
             </paper-button>
             <br>
@@ -128,6 +100,28 @@
             </div>
         </section>
             </a>
+            <!-- Dialog -->
+<paper-dialog heading="Download Dart Editor" transition="core-transition-center">
+    
+    <span style="color: #333333"><h4> For amd64 </h4></span>
+        <p>Paste the following commands in a terminal:</p>
+
+    <span style="background-color: #efefef; color: #555555"><code>
+        sudo apt-add-repository ppa:paolorotolo/dart-editor <br>
+        sudo apt-get update <br>
+        sudo apt-get install dart-editor-amd64
+</code></span>
+    <br>
+    
+    <span style="color: #333333"><h4> For i386 </h4></span>
+    <p>Paste the following commands in a terminal:</p>
+    <span style="background-color: efefef; color: #555555"><code>
+        sudo apt-add-repository ppa:paolorotolo/dart-editor <br>
+        sudo apt-get update <br>
+        sudo apt-get install dart-editor-i386
+</code></span>
+    
+</paper-dialog>
 
         <footer>
             Android Studio for Ubuntu &#169; 2014 Paolo Rotolo. Android Studio and the Android logo are trademarks of Google Inc. All rights reserved.
