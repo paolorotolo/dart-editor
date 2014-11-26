@@ -9,5 +9,6 @@ Standards-Version: 3.9.5
 Package: dart-editor-amd64
 Architecture: all
 Depends: ${misc:Depends}
+Conflicts: dart
 Description: Dart Editor for Ubuntu.
  Dart Editor, with its static analysis engine and direct integration with Dartium, helps you develop, debug, and maintain your apps.

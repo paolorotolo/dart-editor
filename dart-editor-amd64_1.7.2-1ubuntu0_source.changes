@@ -1,0 +1,40 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sun, 26 Nov 2014 16:24:16 +0100
+Source: dart-editor-amd64
+Binary: dart-editor-amd64
+Architecture: source
+Version: 1.7.2-1ubuntu0
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: Paolo Rotolo <paolorotolo@ubuntu.com>
+Changed-By: Paolo Rotolo <paolorotolo@ubuntu.com>
+Description:
+ dart-editor-amd64 - Dart Editor for Ubuntu.
+Changes:
+ dart-editor-amd64 (1.7.2-1ubuntu0) UNRELEASED; urgency=low
+ .
+   * Added dart to Conflicts.
+Checksums-Sha1:
+ 0f8024e55381b4b44cc8a4dfdbd2c2de4dba8faf 1128 dart-editor-amd64_1.7.2-1ubuntu0.dsc
+ cdbbae88ce8280cbf9c9e7cba50bfd8f238a9c7f 7492 dart-editor-amd64_1.7.2-1ubuntu0.tar.xz
+Checksums-Sha256:
+ 498499231d72a132627cf9623efbfbc7ce136783ca2437d13f1d14e178c5cb57 1128 dart-editor-amd64_1.7.2-1ubuntu0.dsc
+ 9f91896e84d4a6798c63a1322cfe207c33847dd3e3e8baeda2d891b131295ce3 7492 dart-editor-amd64_1.7.2-1ubuntu0.tar.xz
+Files:
+ fb867230d5d21cafb977dfa73d73a790 1128 devel optional dart-editor-amd64_1.7.2-1ubuntu0.dsc
+ cb03065172dee375ce023ea77cae298e 7492 devel optional dart-editor-amd64_1.7.2-1ubuntu0.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJUdfEFAAoJEPZj7dWN6MREfrUH/174XbUrfMRQJ3OAW38FwLw4
+kY7gHdbORbZt+jNgI7B+Nut6wxAa+eErJ8PjzmnIufwOHQtYwF+CnRSPiaIUPq27
+Nipi73RjRQQ6MM1AL/3PxRI/vyts/YrAwBII6v441EEYUlSsfu8a2uIsbi+7tkm0
+MOf0RfC7/SJhEbUFV17+ybnSMW6yzmOq/yyEZPWuGiffhRs/FalweviCPVdGv7SH
+o71DX2TCfk5Lu3Zeuxit4X3iacldryooIhQaHZNHfhZYI5SB+AlYXdxqboBnke2X
++WSbAtXfePWkbR7x/i0v3rh25XqzHW2j4a+B8Qq+erPbEG2WIACP2ZQ3ziqg2KY=
+=ZHWl
+-----END PGP SIGNATURE-----

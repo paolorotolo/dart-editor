@@ -1,8 +1,9 @@
 Package: dart-editor-i386
-Version: 1.7.2-0ubuntu0
+Version: 1.7.2-1ubuntu0
 Architecture: all
 Maintainer: Paolo Rotolo <paolorotolo@ubuntu.com>
 Installed-Size: 66
+Conflicts: dart
 Section: devel
 Priority: optional
 Description: Dart Editor for Ubuntu.
